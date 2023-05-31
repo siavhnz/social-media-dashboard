@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/social-media-dashboard-9vTx2UdEGE)
 
-- Live Site: [cloudflare](https://?.pages.dev/)
+- Live Site: [cloudflare](smedia-dashboard.pages.dev)
 
 ## My process
 
@@ -45,6 +45,7 @@ Users should be able to:
 - Implement mobile design based on `design` folder
 - Implement desktop design based on `design` folder
 - Work on Theme switcher functionality
+- Add hovers
 - Prepare README.md, Make it live on Cloudflare, Publish in Frontendmentor
 
 ### Work Time
@@ -55,10 +56,15 @@ Users should be able to:
 
 - React
 - CSS Module
+- Mui component (for switch)
 
 ### What I learned
 
+Implement Responsiveness with flexbox
+
 ### Continued development
+
+Frontendmentor Challenges
 
 ### Useful resources
 
