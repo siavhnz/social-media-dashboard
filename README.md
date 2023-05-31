@@ -42,6 +42,8 @@ Users should be able to:
 - Prepare Project (Download assets, Install Vitejs, README.md, Initialize git, ...)
 - Identify Components (Header, MainState, SubState, DashboardPage)
 - Create Components
+- Implement mobile design based on `design` folder
+- Implement desktop design based on `design` folder
 
 ### Work Time
 

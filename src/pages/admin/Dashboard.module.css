@@ -2,6 +2,7 @@
 .main-state-container{
     margin-top: 2.375rem;
     display: flex;
+    justify-content: space-evenly;
     column-gap: 2rem;
     flex-wrap: wrap;
 }
@@ -12,6 +13,7 @@
 .sub-state-container > div{
 
     display: flex;
+    justify-content: space-evenly;
     column-gap: 1rem;
     flex-wrap: wrap;
 }
@@ -23,4 +25,12 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1.25rem;
+}
+
+
+@media (min-width: 69.375em) {
+   
+    .sub-state-container > div{
+        column-gap: 2rem;
+    }
 }

@@ -1,5 +1,5 @@
 
-.container {
+.header {
     padding-top: 2rem;
     font-family: var(--font);
 }
@@ -16,6 +16,7 @@
     color: var(--color-very-dark-blue);
 }
 
+.theme-switcher > span,
 .subtitle {
     color: var(--color-dark-grayish-blue);
     font-size: 0.85rem;
@@ -27,4 +28,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+@media (min-width: 69.375em) {
+
+    .header > div {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .info {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-size: 1.74rem;
+    }
+
+    .subtitle {
+        font-size: 0.83rem;
+    }
+
+    .theme-switcher {
+        column-gap: 1rem;
+    }
+
+    .theme-switcher > span {
+        color: var(--color-mid-dark-blue);
+    }
+
 }

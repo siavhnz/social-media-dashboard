@@ -12,7 +12,6 @@
     font-family: var(--font);
     width: 100%;
     max-width: 20.375em; /* 326px */
-    flex: 1 1 18rem;
 }
 .border {
     position: absolute;
@@ -69,4 +68,10 @@
 
 .swing {
     margin-top: 1.4rem;
+}
+
+@media (min-width: 69.375em) {
+    .container {
+        max-width: 15.825em;
+    }  
 }

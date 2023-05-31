@@ -4,7 +4,7 @@ import Wrapper from "./Wrapper";
 import styles from "./Header.module.css";
 
 const Header = () => {
-    return <header className={styles.container}>
+    return <header className={styles.header}>
         <Wrapper>
             <div className={styles.info}>
                 <h2 className={styles.title}>
@@ -15,7 +15,7 @@ const Header = () => {
                 </p>
             </div>
             <div className={styles["theme-switcher"]}>
-                <span className={styles.subtitle}>Dark Mode</span>
+                <span>Dark Mode</span>
                 <IOSSwitch />
             </div>
         </Wrapper>

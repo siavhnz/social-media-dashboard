@@ -7,7 +7,6 @@
     border-radius: 0.5rem;
     width: 100%;
     max-width: 20.375em; /* 326px */
-    /* flex: 1 1 18rem; */
     margin-bottom: 1rem;
     font-family: var(--font);
 }
@@ -31,4 +30,12 @@
 
 .swing {
     align-self: flex-end;
+}
+
+
+@media (min-width: 69.375em) {
+    .container {
+        max-width: 15.825em;
+        margin-bottom: 1.75rem;
+    }  
 }
