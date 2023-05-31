@@ -13,6 +13,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -40,6 +41,7 @@ Users should be able to:
 
 - Prepare Project (Download assets, Install Vitejs, README.md, Initialize git, ...)
 - Identify Components (Header, MainState, SubState, DashboardPage)
+- Create Components
 
 ### Work Time
 
@@ -50,6 +52,14 @@ Users should be able to:
 ### What I learned
 
 ### Continued development
+
+### Useful resources
+
+- [Format Numbers](https://sabe.io/blog/javascript-format-numbers-commas#:~:text=The%20best%20way%20to%20format,format%20the%20number%20with%20commas.)
+
+- [Transform SVGs into React components](https://www.npmjs.com/package/vite-plugin-svgr)
+
+- [React Switch](https://mui.com/material-ui/react-switch/)
 
 ## Author
 
