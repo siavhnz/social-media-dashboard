@@ -35,7 +35,7 @@ Users should be able to:
 
 - Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/social-media-dashboard-9vTx2UdEGE)
 
-- Live Site: [cloudflare](smedia-dashboard.pages.dev)
+- Live Site: [cloudflare](https://smedia-dashboard.pages.dev)
 
 ## My process
 
