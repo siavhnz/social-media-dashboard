@@ -1,20 +1,20 @@
-
-import { ReactComponent as Up } from "../../assets/images/icon-up.svg";
-import { ReactComponent as Down } from "../../assets/images/icon-down.svg";
 import { getIcon } from "../social-icon";
+import Swing from "../swing";
+import styles from "./MainState.module.css";
 
 const MainState = ({ platform, user, quantity, label, swing, isUp }) => {
 
     const Icon = getIcon(platform);
-    return <div>
-        {Icon}
-        <h4>{user}</h4>
-        <p>{quantity}</p>
-        <p>{label}</p>
-        <div>
-            {isUp && <Up aria-hidden={true} focusable={false} />}
-            {!isUp && <Down aria-hidden={true} focusable={false} />}
-            {swing}
+    return <div className={styles.container}>
+        <div className={`${styles.border} ${styles[`${platform}`]}`} />
+        <div className={styles.user}>
+            {Icon}
+            <h4>{user}</h4>
+        </div>
+        <p className={styles.quantity}>{quantity}</p>
+        <p className={styles.label}>{label}</p>
+        <div className={styles.swing}>
+            <Swing isUp={isUp} text={swing} />
         </div>
     </div>
 

@@ -1,0 +1,72 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    background-color: var(--color-light-grayish-blue);
+    border-radius: 0.5rem;
+    padding: 2rem 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font);
+    width: 100%;
+    max-width: 20.375em; /* 326px */
+    flex: 1 1 18rem;
+}
+.border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.24rem;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.twitter {
+    background: var(--color-twitter);
+}
+
+.facebook {
+    background: var(--color-facebook);
+}
+
+.instagram {
+    background: linear-gradient(90deg, var(--color-instagram-from) 0%, var(--color-instagram-to) 100%);
+}
+
+.youtube {
+    background: var(--color-youtube);
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.user h4 {
+    color: var(--color-dark-grayish-blue);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.quantity {
+    margin-top: 1.5rem;
+    font-size: 3.375rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+.label {
+    margin-top: 0.25rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+}
+
+.swing {
+    margin-top: 1.4rem;
+}

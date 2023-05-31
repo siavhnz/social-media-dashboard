@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/64770b0d815c245a69ef381d)
 
 ### Built with
 

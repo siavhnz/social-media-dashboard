@@ -1,0 +1,16 @@
+.swing {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.swing-green {
+    color: var(--color-lime-green);
+}
+
+.swing-red {
+    color: var(--color-bright-red);
+}
