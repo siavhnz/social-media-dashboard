@@ -45,12 +45,16 @@ Users should be able to:
 - Implement mobile design based on `design` folder
 - Implement desktop design based on `design` folder
 - Work on Theme switcher functionality
+- Prepare README.md, Make it live on Cloudflare, Publish in Frontendmentor
 
 ### Work Time
 
 - [My Clockify Report](https://app.clockify.me/shared/64770b0d815c245a69ef381d)
 
 ### Built with
+
+- React
+- CSS Module
 
 ### What I learned
 

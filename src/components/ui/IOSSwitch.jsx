@@ -25,6 +25,11 @@ const IOSSwitch = styled((props) => (
                     opacity: 0.5,
                 },
             },
+            '&.Mui-checked:hover': {
+                '& + .MuiSwitch-track': {
+                    background: 'linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%);',
+                },
+            },
             '&.Mui-focusVisible .MuiSwitch-thumb': {
                 color: '#33cf4d',
                 border: '6px solid #fff',
@@ -47,11 +52,15 @@ const IOSSwitch = styled((props) => (
         },
         '& .MuiSwitch-track': {
             borderRadius: 26 / 2,
-            background: semitheme === 'true' ? 'hsl(230, 22%, 74%)' : 'linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%);',
+            background: semitheme === 'true' ? 'hsl(230, 22%, 74%)' : 'linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%)',
             opacity: 1,
             transition: theme.transitions.create(['background-color'], {
                 duration: 500,
             }),
+        },
+        '& .MuiSwitch-track:hover': {
+            background: 'linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%)',
+
         },
     }
 }

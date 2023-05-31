@@ -9,6 +9,11 @@
     max-width: 20.375em; /* 326px */
     margin-bottom: 1rem;
     font-family: var(--font);
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: var(--color-light-grayish-blue-hover);
 }
 
 .container > div {
@@ -45,6 +50,10 @@
 
 body[data-theme="theme-dark"] .container{
     background-color: var(--d-color-Dark-desaturated-blue);
+}
+
+body[data-theme="theme-dark"] .container:hover {
+    background-color: var(--d-color-Dark-desaturated-blue-hover);
 }
 
 body[data-theme="theme-dark"] .quantity{
