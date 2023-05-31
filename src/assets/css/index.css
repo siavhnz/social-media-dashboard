@@ -1,5 +1,12 @@
 :root {
-    --font: 'Inter', sans-serif;;
+    --font: 'Inter', sans-serif;
+
+    /* Dark Theme */
+    --d-color-very-dark-blue: hsl(230, 17%, 14%); /* BG */
+    --d-color-very-dark-blue-2: hsl(232, 19%, 15%); /* Top BG Pattern */
+    --d-color-Dark-desaturated-blue: hsl(228, 28%, 20%); /* Card BG */
+    --d-color-desaturated-blue: hsl(228, 34%, 66%); /* Text */
+
     /* Light Theme */
     --color-white: hsl(0, 0%, 100%); /* BG */
     --color-very-pale-blue : hsl(225, 100%, 98%);/* Top BG Pattern */
@@ -15,4 +22,14 @@
     --color-instagram-from: #fdc468;
     --color-instagram-to: #de4a96;
     --color-youtube: hsl(348, 97%, 39%);
+
+
+}
+
+* {
+    transition:all 0.5s ease;
+}
+
+body[data-theme="theme-dark"] {
+    background-color: var(--d-color-very-dark-blue);
 }

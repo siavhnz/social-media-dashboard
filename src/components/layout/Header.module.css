@@ -2,6 +2,19 @@
 .header {
     padding-top: 2rem;
     font-family: var(--font);
+    position: relative;
+}
+
+.pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15rem;
+    background-color: var(--color-very-pale-blue);
+    z-index: -1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .info {
@@ -60,4 +73,18 @@
         color: var(--color-mid-dark-blue);
     }
 
+}
+
+/* dark theme */
+
+body[data-theme="theme-dark"] .pattern{
+    background-color: var(--d-color-very-dark-blue-2);
+}
+
+body[data-theme="theme-dark"] .title{
+    color: var(--color-white);
+}
+body[data-theme="theme-dark"] .theme-switcher > span,
+body[data-theme="theme-dark"] .subtitle{
+    color: var(--d-color-desaturated-blue);
 }

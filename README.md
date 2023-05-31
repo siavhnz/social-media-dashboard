@@ -44,6 +44,7 @@ Users should be able to:
 - Create Components
 - Implement mobile design based on `design` folder
 - Implement desktop design based on `design` folder
+- Work on Theme switcher functionality
 
 ### Work Time
 

@@ -16,7 +16,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.title {
+
+.action {
     color: var(--color-dark-grayish-blue);
     font-size: 0.85rem;
     font-weight: 700;
@@ -38,4 +39,18 @@
         max-width: 15.825em;
         margin-bottom: 1.75rem;
     }  
+}
+
+/* dark theme */
+
+body[data-theme="theme-dark"] .container{
+    background-color: var(--d-color-Dark-desaturated-blue);
+}
+
+body[data-theme="theme-dark"] .quantity{
+    color: var(--color-white);
+}
+
+body[data-theme="theme-dark"] .action {
+    color: var(--d-color-desaturated-blue);
 }

@@ -8,7 +8,7 @@ const SubState = ({ action, platform, quantity, swing, isUp }) => {
     const Icon = getIcon(platform);
     return <div className={styles.container}>
         <div>
-            <h3 className={styles.title}>{action}</h3>
+            <h3 className={styles.action}>{action}</h3>
             {Icon}
         </div>
         <div>

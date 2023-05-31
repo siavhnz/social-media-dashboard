@@ -34,3 +34,9 @@
         column-gap: 2rem;
     }
 }
+
+/* dark theme */
+
+body[data-theme="theme-dark"] .title {
+    color: var(--color-white);
+}

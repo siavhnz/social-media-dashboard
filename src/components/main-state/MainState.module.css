@@ -60,6 +60,7 @@
 }
 
 .label {
+    color: var(--color-dark-grayish-blue);
     margin-top: 0.25rem;
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -75,3 +76,19 @@
         max-width: 15.825em;
     }  
 }
+
+/* dark theme */
+
+body[data-theme="theme-dark"] .container{
+    background-color: var(--d-color-Dark-desaturated-blue);
+}
+
+body[data-theme="theme-dark"] .quantity{
+    color: var(--color-white);
+}
+
+body[data-theme="theme-dark"] .user h4,
+body[data-theme="theme-dark"] .label{
+    color: var(--d-color-desaturated-blue);
+}
+
