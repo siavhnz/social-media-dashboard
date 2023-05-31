@@ -38,6 +38,9 @@ Users should be able to:
 
 ## My process
 
+- Prepare Project (Download assets, Install Vitejs, README.md, Initialize git, ...)
+- Identify Components (Header, MainState, SubState, DashboardPage)
+
 ### Work Time
 
 - [My Clockify Report](https://app.clockify.me/shared/?)
